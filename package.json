@@ -1,0 +1,20 @@
+{
+  "name": "nodejsst",
+  "version": "1.0.0",
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GwonSungJun2/NodeJsST.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/GwonSungJun2/NodeJsST/issues"
+  },
+  "homepage": "https://github.com/GwonSungJun2/NodeJsST#readme"
+}

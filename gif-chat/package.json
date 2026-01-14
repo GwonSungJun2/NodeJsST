@@ -1,0 +1,24 @@
+{
+  "name": "gif-chat",
+  "version": "0.0.1",
+  "description": "GIF 웹 소켓 채팅방",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "GwonSungJun",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-session": "^1.18.2",
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.11",
+    "nunjucks": "^3.2.4",
+    "ws": "^8.19.0"
+  }
+}
