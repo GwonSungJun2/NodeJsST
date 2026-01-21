@@ -18,7 +18,8 @@
         //     webSocket.send('클라이언트에서 서버로 답장을 보냅니다')
         // }
         const socket = io.connect('https://ideal-space-engine-pjvrwggg7jvrcvj9-8005.app.github.dev', {
-            path: '/socket.io'
+            path: '/socket.io',
+            transports: ['websocket'],
         })
         socket.on('news', function(data) {
             console.log(data)

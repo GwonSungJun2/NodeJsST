@@ -4,9 +4,11 @@ const morgan = require('morgan')
 const cookieParser = require('cookie-parser')
 const session = require('express-session')
 const nunjucks = require('nunjucks')
-const dotenv = require('dotenv')
+const dotenv = require('dotenv').config({
+    path: '.env.development'
+})
 
-dotenv.config()
+
 const webSocket = require('./socket')
 const indexRouter = require('./routes')
 const connect = require('./schemas')
